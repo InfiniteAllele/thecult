@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+body {
+    font-family: 'Reggae One', cursive;
+    background: #3f3f3f;
+    color: darkgray;
+    overflow-x: hidden;
+}
+
+main {
+    min-height: calc(100vh - 64px);
+}
+
+header {
+    margin-top: 5rem;
+}
+
+header h1 {
+    font-size: 100px;
+}
+
+.description {
+    margin-top: 7rem;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+.cards {
+    display: none;
+    margin-top: 3rem;
+}
+
+.team .box {
+    background: rgb(150, 148, 148);
+    color: rgb(231, 231, 38);
+    border-radius: 10px;
+    padding: 40px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.team .box img {
+    width: 50%;
+    height: 50%;
+    border-radius: 25%;
+}
+
+.team .box1 img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.team .box:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 0 6px #4183D7;
+}
+
+
+.motto {
+    position: relative;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.motto .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0;
+}
+
+footer {
+    background: rgb(150, 148, 148);
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3f3f3f;
+}
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 60px;
+    }
+}
