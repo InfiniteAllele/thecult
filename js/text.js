@@ -46,6 +46,18 @@ anime.timeline({
         easing: "easeInExpo",
         delay: motto.delay
     }).add({
+        targets: '.motto .letters-4',
+        opacity: motto.opacityIn,
+        scale: motto.scaleIn,
+        duration: motto.durationIn
+    }).add({
+        targets: '.motto .letters-4',
+        opacity: 0,
+        scale: motto.scaleOut,
+        duration: motto.durationOut,
+        easing: "easeInExpo",
+        delay: motto.delay
+    }).add({
         targets: '.motto',
         opacity: 0,
         duration: 500,
