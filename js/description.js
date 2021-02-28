@@ -1,6 +1,6 @@
 var i = 0;
 var txt =
-    "We are The CULT. It was established to make PUBG gaming more fun.";
+    "The CULT was established to make PUBG gaming more fun.";
 var speed = 80;
 
 function description() {
